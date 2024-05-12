@@ -61,7 +61,7 @@ function Main(){
       </div>
       <div className="Main_2">
        <img  onClick={roleDice}
-       src={`./src/Dice_images/dice_${currentDice}.png`} alt="dice" />
+       src={`./src/dice_${currentDice}.png`} alt="dice" />
             <h2>click to dice</h2>
           <button onClick={ScoreReset}>reset</button>
           <button onClick={()=>SetShowRule((prev)=>!prev)}>{ShowRule?"scroll Down⬇️":" Rules"}</button>

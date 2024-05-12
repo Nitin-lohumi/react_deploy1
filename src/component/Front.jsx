@@ -4,7 +4,7 @@ function Front({toggle}){
         <>
         <div className="Front_page">
              <div className="img_Box">
-                <img src="./src/Dice_images/Daco_55708.png" alt="dice" />
+                <img src="./src/Daco_55708.png" alt="dice" />
                 </div>
             <div className="Start">
             <h2>
