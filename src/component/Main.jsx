@@ -59,9 +59,10 @@ function Main(){
          />
           </div>
       </div>
-      <div className="Main_2">
+      {/* ${currentDice} */}
+      <div className="Main_2"> 
        <img  onClick={roleDice}
-       src={`./src/dice_${currentDice}.png`} alt="dice" />
+       src={`https://game-icons.net/icons/ffffff/000000/1x1/skoll/inverted-dice-${currentDice}.svg`} alt="dice" />
             <h2>click to dice</h2>
           <button onClick={ScoreReset}>reset</button>
           <button onClick={()=>SetShowRule((prev)=>!prev)}>{ShowRule?"scroll Down⬇️":" Rules"}
